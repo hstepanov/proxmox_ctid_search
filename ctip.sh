@@ -1,7 +1,7 @@
 #!/bin/bash
 ##########################################################
 #       Script get an ip address of some container       #
-#      and trying to find this ip in each container.     #
+#       and try to find this ip in each container.       #
 # If search was successfull, script tell the container_id#
 ##########################################################
 #
