@@ -27,7 +27,7 @@ search_ct() {
 echo -n "Input container ip, son: "
 read CT_IP
 
-# Let's check if IP doesn't contain nondigit symbols
+# Try to check if IP doesn't contain any nondigit symbols
 # If it so then we call search_ct func
 if [[ $CT_IP =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]
     then
